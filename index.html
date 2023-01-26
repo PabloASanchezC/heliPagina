@@ -5,28 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Heli México</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="arriba.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="https://i.ibb.co/zHLCgNT/helilogo.png"
       type="image/x-icon"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <span class="ir-arriba material-icons-outlined"> expand_less </span>
+    <a
+      target="_blank"
+      href="https://wa.me/5213316099193?text=Hola!%20Estoy%20interesado%20en%20tus%20productos"
+    >
+      <div class="btn-whatsapp"></div
+    ></a>
     <header>
       <div class="logoContainer">
-        <div class="heli"></div>
+        <a href="./index.html">
+          <div class="heli"></div>
+        </a>
       </div>
 
       <nav class="burgerMenu">
-        <ul class="listaMenu inactive indice">
+        <div class="button inactive indice">
+          <div class="close"></div>
+          <ul class="listaMenu">
             <li><a href="">Acerca de nosotros</a></li>
             <li><a href="">Contacto</a></li>
             <li><a href="">Novedades</a></li>
-        </ul>
+          </ul>
+        </div>
       </nav>
     </header>
     <main></main>

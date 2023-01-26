@@ -3,5 +3,5 @@ const navMenu = document.querySelector(".indice");
 burger.addEventListener("click", toggleNavMenu);
 
 function toggleNavMenu() {
-	navMenu.classList.toggle("inactive");
+  navMenu.classList.toggle("inactive");
 }
