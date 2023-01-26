@@ -61,28 +61,40 @@ a {
   font-weight: bold;
 }
 
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
-
   height: 1000px;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
   width: 100%;
   height: 60px;
+}
+
+header .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .logoContainer {
   height: 100%;
   width: 100%;
-  max-width: 120px;
+  max-width: 160px;
 }
 
 .heli {
   background-image: url(https://i.ibb.co/zHLCgNT/helilogo.png);
-  width: 120%;
+  width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,4 +169,37 @@ header nav {
 
 .inactive {
   display: none;
+}
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  background: rgb(229, 0, 17);
+  background: linear-gradient(
+    180deg,
+    rgba(229, 0, 17, 1) 0%,
+    rgba(245, 245, 245, 0) 100%
+  );
+}
+
+.hero .container {
+  width: 100%;
+  height: 100%;
+}
+
+.imageHero {
+  background-image: url(https://i.ibb.co/y6hq2pP/heroPage.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: inherit;
+  height: 50%;
+}
+
+.textoHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
