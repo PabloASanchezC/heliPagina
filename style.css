@@ -17,6 +17,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   background-color: var(--white);
+  letter-spacing: .04rem;
 }
 
 .ir-arriba {
@@ -61,6 +62,24 @@ a {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 12px;
+  color: var(--black);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+p {
+  margin-top: 12px;
+}
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -74,6 +93,7 @@ body {
 header {
   display: flex;
   width: 100%;
+  min-width: 320px;
   height: 60px;
 }
 
@@ -173,12 +193,13 @@ header nav {
 
 .hero {
   width: 100%;
+  min-width: 320px;
   height: 80vh;
   background: rgb(229, 0, 17);
   background: linear-gradient(
     180deg,
     rgba(229, 0, 17, 1) 0%,
-    rgba(245, 245, 245, 0) 100%
+    rgba(245, 245, 245, 0) 60%
   );
 }
 
