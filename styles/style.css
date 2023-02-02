@@ -228,4 +228,14 @@ header nav {
 .carrousel {
   display: grid;
   place-content: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+footer {
+  width: 100vw;
+  height: 100px;
+  background-color: var(--black);
 }
