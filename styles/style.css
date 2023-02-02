@@ -17,7 +17,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   background-color: var(--white);
-  letter-spacing: .04rem;
+  letter-spacing: 0.04rem;
 }
 
 .ir-arriba {
@@ -194,12 +194,12 @@ header nav {
 .hero {
   width: 100%;
   min-width: 320px;
-  height: 80vh;
+  height: 520px;
   background: rgb(229, 0, 17);
   background: linear-gradient(
     180deg,
     rgba(229, 0, 17, 1) 0%,
-    rgba(245, 245, 245, 0) 60%
+    rgba(245, 245, 245, 0) 15%
   );
 }
 
@@ -214,7 +214,7 @@ header nav {
   background-repeat: no-repeat;
   background-size: contain;
   width: inherit;
-  height: 50%;
+  height: 60%;
 }
 
 .textoHero {
@@ -223,4 +223,9 @@ header nav {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.carrousel {
+  display: grid;
+  place-content: center;
 }

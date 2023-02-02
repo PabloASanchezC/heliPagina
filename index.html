@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Heli México</title>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="arriba.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <script src="./scripts/arriba.js"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/carrouselCss.css">
     <link
       rel="shortcut icon"
       href="https://i.ibb.co/zHLCgNT/helilogo.png"
@@ -66,8 +67,54 @@
           </div>
         </div>
       </section>
+      <section class="carrousel">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175245869.png?RzE2dC5wbmc="  />
+            <div class="text">Image 1</div>
+          </div>
+    
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175400712.png?SDMtMS0xLjgucG5n">
+            <div class="text">Image 2</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="https://www.heliforkliftamerica.com/uploadfiles/2020/11/20201116105629612.png?MjAyMDAzMDUxNDMzMDQ3OTMucG5n">
+            <div class="text">Image 3</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175004844.png?MS0zLjV0LUxpdGhpdW0tYmF0dGVyeS1mb3JrbGlmdC10cnVjay5wbmc=">
+            <div class="text">Image 4</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="https://www.heliforkliftamerica.com/uploadfiles/2020/11/20201116105309988.png?MjAyMDAzMTkxNzI3MjI0NDEgKDEpLnBuZw==">
+            <div class="text">Image 5</div>
+          </div>
+        
+    
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+    
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+      </section>
     </main>
     <footer></footer>
-    <script src="./script.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
