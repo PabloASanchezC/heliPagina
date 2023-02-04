@@ -87,7 +87,7 @@ p {
 
 body {
   font-family: "Ubuntu", sans-serif;
-  height: 1000px;
+  /* height: 1000px; */
 }
 
 header {
@@ -236,6 +236,56 @@ header nav {
 
 footer {
   width: 100vw;
-  height: 100px;
+  height: max-content;
   background-color: var(--black);
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: max-content;
+  padding: 20px 0 20px 0;
+
+}
+
+footer .logoFooter {
+  background-image: url(https://i.ibb.co/zHLCgNT/helilogo.png);
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer .legals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  color: var(--white);
+}
+
+footer .redes {
+  display: flex;
+  width: 160px;
+  justify-content: space-evenly;
+}
+
+footer svg {
+  fill: var(--white);
+}
+
+footer h4 {
+  color: var(--Dred);
+  font-size: 1rem;
+}
+
+footer h4 a:hover {
+color: var(--Bred);
+opacity: .5;
 }
