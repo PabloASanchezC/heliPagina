@@ -18,6 +18,7 @@ html {
   scroll-behavior: smooth;
   background-color: var(--white);
   letter-spacing: 0.04rem;
+  width: 100vw;
 }
 
 .ir-arriba {
@@ -87,6 +88,7 @@ p {
 
 body {
   font-family: "Ubuntu", sans-serif;
+  width: 100vw;
   /* height: 1000px; */
 }
 
@@ -226,11 +228,91 @@ header nav {
 }
 
 .carrousel {
+  width: 100vw;
   display: grid;
   place-content: center;
   margin-bottom: 20px;
 }
 
+
+.contacto {
+  background-color: var(--Dred);
+  color: var(--white);
+  margin: 0 auto;
+  padding: 80px 20px 40px;
+}
+
+.contacto h2, .form {
+  color: var(--white);
+}
+
+.contacto ul {
+  margin-bottom: 40px;
+}
+
+.contacto li {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.8rem;
+}
+
+.contacto ul :nth-child(3) span {
+  align-self: flex-start;
+  padding-top: 4px;
+}
+
+.contacto .mapa {
+  margin: 20px auto;
+}
+
+.contacto .form {
+  background-color: var(--primal);
+  color: var(--Blue);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    -1px -1px 10px rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.contacto .input-style {
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--Bred);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  width: 60%;
+}
+
+.contacto .input-style::placeholder {
+  color: var(--white);
+}
+.contacto .input-style:focus-visible {
+  outline: none;
+}
+
+.linkOpinion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.linkOpinion a {
+  color: var(--primal);
+  font-weight: bold;
+}
+
+.linkOpinion a:hover {
+  color: var(--black);
+}
 
 
 
@@ -266,7 +348,7 @@ footer .legals {
   justify-content: space-around;
   align-items: center;
   gap: 8px;
-  padding: 0 16px;
+  /* padding: 0 16px; */
   color: var(--white);
 }
 
