@@ -266,8 +266,7 @@ header nav {
 }
 
 .contacto .form {
-  background-color: var(--primal);
-  color: var(--Blue);
+  color: var(--white);
   padding: 12px;
   border-radius: 8px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
@@ -283,6 +282,7 @@ header nav {
 }
 
 .contacto .input-style {
+  color: var(--white);
   background: none;
   border: none;
   border-bottom: 1px solid var(--Bred);
@@ -298,6 +298,20 @@ header nav {
   outline: none;
 }
 
+.contacto button {
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--Bred);
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 60%), -2px -2px 5px rgb(255 255 255 / 20%);
+  background-color: var(--Dred);
+}
+
+.contacto button:hover {
+  background-color: var(--Hred);
+  transition: all 0.2s linear
+}
+
 .linkOpinion {
   display: flex;
   align-items: center;
@@ -306,12 +320,13 @@ header nav {
 }
 
 .linkOpinion a {
-  color: var(--primal);
+  color: var(--Bred);
   font-weight: bold;
 }
 
 .linkOpinion a:hover {
-  color: var(--black);
+  color: var(--Hred);
+  transition: all 0.2s linear
 }
 
 
@@ -370,4 +385,5 @@ footer h4 {
 footer h4 a:hover {
 color: var(--Bred);
 opacity: .5;
+transition: all 0.2s linear
 }
