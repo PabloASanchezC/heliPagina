@@ -227,13 +227,58 @@ header nav {
   text-align: center;
 }
 
-.carrousel {
-  width: 100vw;
-  display: grid;
-  place-content: center;
-  margin-bottom: 20px;
+.catalogos {
+  width: 100%;
 }
 
+.catalogos .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.catalogos .grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.catalogos .grid a {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 24px 24px 23px #dadada, -24px -24px 23px #ffffff;
+  text-align: center;
+  letter-spacing: 0.16rem;
+  line-height: 2.4rem;
+  color: var(--Dred);
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-image: url(https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175400712.png?SDMtMS0xLjgucG5n);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.catalogos .grid a:nth-child(2) {
+  background-image: url(https://www.heliforkliftamerica.com/uploadfiles/2020/11/20201116105629612.png?MjAyMDAzMDUxNDMzMDQ3OTMucG5n);
+}
+.catalogos .grid a:nth-child(3) {
+  background-image: url(https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175004844.png?MS0zLjV0LUxpdGhpdW0tYmF0dGVyeS1mb3JrbGlmdC10cnVjay5wbmc=);
+}
+.catalogos .grid a:nth-child(4) {
+  background-image: url(https://www.heliforkliftamerica.com/uploadfiles/2020/11/20201116105309988.png?MjAyMDAzMTkxNzI3MjI0NDEgKDEpLnBuZw==);
+}
+.catalogos .grid a:nth-child(5) {
+  background-image: url(https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175245869.png?RzE2dC5wbmc=);
+}
 
 .contacto {
   background-color: var(--Dred);
@@ -242,7 +287,8 @@ header nav {
   padding: 80px 20px 40px;
 }
 
-.contacto h2, .form {
+.contacto h2,
+.form {
   color: var(--white);
 }
 
@@ -309,7 +355,7 @@ header nav {
 
 .contacto button:hover {
   background-color: var(--Hred);
-  transition: all 0.2s linear
+  transition: all 0.2s linear;
 }
 
 .linkOpinion {
@@ -326,10 +372,8 @@ header nav {
 
 .linkOpinion a:hover {
   color: var(--Hred);
-  transition: all 0.2s linear
+  transition: all 0.2s linear;
 }
-
-
 
 footer {
   width: 100vw;
@@ -345,7 +389,6 @@ footer .container {
   width: 100vw;
   height: max-content;
   padding: 20px 0 20px 0;
-
 }
 
 footer .logoFooter {
@@ -383,7 +426,7 @@ footer h4 {
 }
 
 footer h4 a:hover {
-color: var(--Bred);
-opacity: .5;
-transition: all 0.2s linear
+  color: var(--Bred);
+  opacity: 0.5;
+  transition: all 0.2s linear;
 }
