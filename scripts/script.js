@@ -6,7 +6,7 @@ function toggleNavMenu() {
   navMenu.classList.toggle("inactive");
 }
 
-//carrusel//
+// carrusel
 
 // let slideIndex = 1;
 // showSlides(slideIndex);
@@ -33,4 +33,4 @@ function toggleNavMenu() {
 //   }
 //   slides[slideIndex-1].style.display = "flex";  
 //   dots[slideIndex-1].className += " active";
-}
+// }
