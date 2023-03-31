@@ -1,0 +1,46 @@
+.tituloCatalogo {
+	text-align: center;
+	color: var(--Dred);
+}
+
+.fichaTecnica {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.fichaTecnica figure {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 28px 0;
+}
+
+.fichaTecnica img {
+	width: 258px;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 24px 24px 23px #dadada, -24px -24px 23px #ffffff;
+}
+
+.caracteristicas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--Dred);
+}
+
+.caracteristicas h2 {
+	color: var(--Dred);
+}
+
+.caracterLista {
+	margin: 28px;
+}
+
+.caracterLista li {
+	margin-top: 8px;
+    font-size: 1.1rem;
+}
