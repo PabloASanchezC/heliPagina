@@ -272,10 +272,10 @@ header nav {
   color: var(--Dred);
   font-weight: 700;
   font-size: 1.4rem;
-  background-image: url(https://www.heliforkliftamerica.com/uploadfiles/2020/03/20200304175400712.png?SDMtMS0xLjgucG5n);
+  background-image: url(https://helimontacargas.com.mx/wp-content/uploads/2022/05/Cat_Montacargas_de_Combustion_1_a_1.8_Toneladas-_H3-SERIES_.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 80%;
   transition: transform ease-in 0.12s;
 }
 

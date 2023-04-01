@@ -6,6 +6,11 @@ function toggleNavMenu() {
   navMenu.classList.toggle("inactive");
 }
 
+function goBack() {
+  window.history.back();
+}
+
+
 // carrusel
 
 // let slideIndex = 1;
